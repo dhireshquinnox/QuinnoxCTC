@@ -30,7 +30,7 @@ spring:
         type: com.zaxxer.hikari.HikariDataSource
         url: jdbc:mysql://52.40.247.241:30311/TestAutomation?useUnicode=true&characterEncoding=utf8&useSSL=false
         username: root
-        password:
+        password: admin
         hikari:
             data-source-properties:
                 cachePrepStmts: true
