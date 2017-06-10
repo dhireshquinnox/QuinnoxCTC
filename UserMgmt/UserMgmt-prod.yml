@@ -30,7 +30,7 @@ spring:
         type: com.zaxxer.hikari.HikariDataSource
         url: jdbc:mysql://52.40.247.241:30311/UserMgmt?useUnicode=true&characterEncoding=utf8&useSSL=false
         username: root
-        password: root
+        password: admin
         hikari:
             data-source-properties:
                 cachePrepStmts: true
