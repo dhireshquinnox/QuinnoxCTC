@@ -51,10 +51,12 @@ spring:
             cluster-name:
             cluster-nodes: localhost:9300
     mail:
-        host: localhost
-        port: 25
-        username:
-        password:
+        host: mum.quinnox.com
+        port: 587
+        username: arstest@quinnox.com
+        password: Quinnox@123
+    messages:
+        cache-seconds: 1
     thymeleaf:
         cache: true
 
@@ -137,4 +139,7 @@ jhipster:
 # https://jhipster.github.io/common-application-properties/
 # ===================================================================
 
+
 application:
+  angularConfig:
+    URL: http://52.42.88.239:9091/
