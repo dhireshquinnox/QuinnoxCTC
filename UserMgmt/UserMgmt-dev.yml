@@ -60,7 +60,7 @@ spring:
                   logs: target/elasticsearch/log
                   data: target/elasticsearch/data
     mail:
-        host: mum.quinnox.com
+        host: smtp.office365.com
         port: 587
         username: arstest@quinnox.com
         password: Quinnox@123
