@@ -62,7 +62,7 @@ spring:
     mail:
         host: smtp.office365.com
         port: 587
-        username: arstest@quinnox.com
+        username: arstest2@quinnox.com
         password: Quinnox@123
     messages:
         cache-seconds: 1
@@ -108,7 +108,7 @@ jhipster:
             client-id: internal
             client-secret: internal
     mail: # specific JHipster mail property, for standard properties see MailProperties
-        from: arstest@quinnox.com
+        from: arstest2@quinnox.com
         base-url: http://127.0.0.1:8081
     metrics: # DropWizard Metrics configuration, used by MetricsConfiguration
         jmx.enabled: true
