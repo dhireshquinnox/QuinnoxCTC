@@ -59,11 +59,6 @@ spring:
         port: 587
         username: arstest2@quinnox.com
         password: Quinnox@123
-		tls: true
-        properties.mail.smtp:
-            auth: true
-            starttls.enable: true
-            ssl.trust: smtp.office365.com
     messages:
         cache-seconds: 1
     thymeleaf:
