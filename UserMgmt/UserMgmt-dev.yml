@@ -60,10 +60,16 @@ spring:
                   logs: target/elasticsearch/log
                   data: target/elasticsearch/data
     mail:
-        host: smtp.office365.com
+        host: smtp.gmail.com
         port: 587
-        username: arstest2@quinnox.com
+        username: cognitivecloud.quinnox@gmail.com
         password: Quinnox@123
+        protocol: smtp
+        tls: true
+        properties.mail.smtp:
+            auth: true
+            starttls.enable: true
+            ssl.trust: smtp.gmail.com
     messages:
         cache-seconds: 1
     thymeleaf:
@@ -108,7 +114,7 @@ jhipster:
             client-id: internal
             client-secret: internal
     mail: # specific JHipster mail property, for standard properties see MailProperties
-        from: arstest2@quinnox.com
+        from: cognitivecloud.quinnox@gmail.com
         base-url: http://127.0.0.1:8081
     metrics: # DropWizard Metrics configuration, used by MetricsConfiguration
         jmx.enabled: true
