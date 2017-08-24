@@ -34,8 +34,17 @@ eureka:
             profile: ${spring.profiles.active}
             version: ${info.project.version}
 ribbon:
+    MaxAutoRetries: 3
+    ReadTimeout: 5000
     eureka:
         enabled: true
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 20000
 # See https://github.com/Netflix/Hystrix/wiki/Configuration
 #hystrix:
 #    command:
